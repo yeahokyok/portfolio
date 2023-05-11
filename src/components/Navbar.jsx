@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleClick = () => setShowMobileMenu(!showMobileMenu)
 
     return (
-        <div className="fixed h-[60px] w-full flex justify-between items-center px-4 bg-gray-900 text-gray-300">
+        <div className="fixed flex h-[60px] w-full items-center justify-between bg-gray-900 px-4 text-gray-300">
             <div>
                 {/* <img src={Logo} alt="logo" className="h-[40px]" /> */}
                 <h1 className="text-2xl font-bold">TEERAPAT.C</h1>
@@ -27,7 +27,7 @@ const Navbar = () => {
                     <li>Resume</li>
                 </ul>
                 {/* Hamburger */}
-                <div className="relative md:hidden z-10" onClick={handleClick}>
+                <div className="relative z-10 md:hidden" onClick={handleClick}>
                     {showMobileMenu ? <FaTimes /> : <FaBars />}
                 </div>
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                 <ul
                     className={
                         showMobileMenu
-                            ? "absolute top-0 left-0 w-full h-screen bg-gray-900 text-gray-300 text-4xl flex flex-col justify-center items-center space-y-10"
+                            ? "absolute left-0 top-0 flex h-screen w-full flex-col items-center justify-center space-y-10 bg-gray-900 text-4xl text-gray-300"
                             : "hidden"
                     }
                 >
@@ -49,35 +49,35 @@ const Navbar = () => {
             </nav>
 
             {/* social link */}
-            <div className="hidden md:flex fixed flex-col top-[35%] left-0">
+            <div className="fixed left-0 top-[35%] hidden flex-col md:flex">
                 <ul>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]">
+                    <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#0077b5] duration-300 hover:ml-[-10px]">
                         <a
-                            className="flex justify-between items-center w-full text-gray-300 pl-2"
+                            className="flex w-full items-center justify-between pl-2 text-gray-300"
                             href="/"
                         >
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#33333]">
+                    <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#33333] duration-300 hover:ml-[-10px]">
                         <a
-                            className="flex justify-between items-center w-full text-gray-300 pl-2"
+                            className="flex w-full items-center justify-between pl-2 text-gray-300"
                             href="/"
                         >
                             Github <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#C71610]">
+                    <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#C71610] duration-300 hover:ml-[-10px]">
                         <a
-                            className="flex justify-between items-center w-full text-gray-300 pl-2"
+                            className="flex w-full items-center justify-between pl-2 text-gray-300"
                             href="/"
                         >
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#33333]">
+                    <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#33333] duration-300 hover:ml-[-10px]">
                         <a
-                            className="flex justify-between items-center w-full text-gray-300 pl-2"
+                            className="flex w-full items-center justify-between pl-2 text-gray-300"
                             href="/"
                         >
                             Resume <BsFiletypePdf size={30} />
