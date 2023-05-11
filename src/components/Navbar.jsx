@@ -49,7 +49,7 @@ const Navbar = () => {
             </nav>
 
             {/* social link */}
-            <div className="fixed left-0 top-[35%] hidden flex-col md:flex">
+            <div className="fixed left-0 top-[35%] hidden flex-col lg:flex">
                 <ul>
                     <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#0077b5] duration-300 hover:ml-[-10px]">
                         <a
