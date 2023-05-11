@@ -19,9 +19,12 @@ const Home = () => {
                     in Python, Django, React, Solidity and blockchain
                     technologies.
                 </p>
-                <div>
+                <div className="flex space-x-4">
                     <button className="group my-2 flex items-center border-2 px-6 py-3 text-gray-300 hover:border-[#FF8C00] hover:bg-[#FF8C00]">
                         View Works
+                    </button>
+                    <button className="group my-2 flex items-center border-2 px-6 py-3 text-gray-300 hover:border-[#FF8C00] hover:bg-[#FF8C00]">
+                        Download CV
                     </button>
                 </div>
             </div>
