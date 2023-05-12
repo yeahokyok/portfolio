@@ -90,7 +90,7 @@ const Navbar = () => {
                     <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#0077b5] duration-300 hover:ml-[-10px]">
                         <a
                             className="flex w-full items-center justify-between pl-2 text-gray-300"
-                            href="/"
+                            href="https://www.linkedin.com/in/teerapat-cintornvich-689202264/"
                         >
                             Linkedin <FaLinkedin size={30} />
                         </a>
@@ -98,7 +98,7 @@ const Navbar = () => {
                     <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#33333] duration-300 hover:ml-[-10px]">
                         <a
                             className="flex w-full items-center justify-between pl-2 text-gray-300"
-                            href="/"
+                            href="https://github.com/yeahokyok"
                         >
                             Github <FaGithub size={30} />
                         </a>
@@ -106,7 +106,7 @@ const Navbar = () => {
                     <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#C71610] duration-300 hover:ml-[-10px]">
                         <a
                             className="flex w-full items-center justify-between pl-2 text-gray-300"
-                            href="/"
+                            href="mailto:yeahokyok@gmail.com"
                         >
                             Email <HiOutlineMail size={30} />
                         </a>
@@ -116,7 +116,9 @@ const Navbar = () => {
                     <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#33333] duration-300 hover:ml-[-10px]">
                         <a
                             className="flex w-full items-center justify-between pl-2 text-gray-300"
-                            href="/"
+                            href="https://drive.google.com/file/d/1RvNd-XURd5aTjGln8S6JRdAKGuFTUcv4/view?usp=share_link"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             Resume <BsFiletypePdf size={30} />
                         </a>
