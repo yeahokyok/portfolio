@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { FaBars, FaLinkedin, FaTimes, FaGithub } from "react-icons/fa"
 import { BsFiletypePdf } from "react-icons/bs"
 import { HiOutlineMail } from "react-icons/hi"
+import { Link } from "react-scroll"
 
 import Logo from "../assets/logo.png"
 
@@ -19,12 +20,23 @@ const Navbar = () => {
             <nav>
                 {/* Menu */}
                 <ul className="hidden md:flex">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Experience</li>
-                    <li>Resume</li>
+                    <li>
+                        <Link to="home" smooth={true} duration={500}>
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        {" "}
+                        <Link to="about" smooth={true} duration={500}>
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        {" "}
+                        <Link to="skills" smooth={true} duration={500}>
+                            Skills
+                        </Link>
+                    </li>
                 </ul>
                 {/* Hamburger */}
                 <div className="relative z-10 md:hidden" onClick={handleClick}>
@@ -39,12 +51,36 @@ const Navbar = () => {
                             : "hidden"
                     }
                 >
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Experience</li>
-                    <li>Resume</li>
+                    <li>
+                        <Link
+                            onClick={handleClick}
+                            to="home"
+                            smooth={true}
+                            duration={500}
+                        >
+                            Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            onClick={handleClick}
+                            to="about"
+                            smooth={true}
+                            duration={500}
+                        >
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            onClick={handleClick}
+                            to="skills"
+                            smooth={true}
+                            duration={500}
+                        >
+                            Skills
+                        </Link>
+                    </li>
                 </ul>
             </nav>
 
