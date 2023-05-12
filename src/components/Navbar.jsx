@@ -4,8 +4,6 @@ import { BsFiletypePdf } from "react-icons/bs"
 import { HiOutlineMail } from "react-icons/hi"
 import { Link } from "react-scroll"
 
-import Logo from "../assets/logo.png"
-
 const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false)
     const handleClick = () => setShowMobileMenu(!showMobileMenu)
