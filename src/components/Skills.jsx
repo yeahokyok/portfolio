@@ -8,6 +8,7 @@ import {
     SiDocker,
     SiPostgresql,
     SiGit,
+    SiEthereum,
 } from "react-icons/si"
 import { TbApi, TbBrandGolang } from "react-icons/tb"
 
@@ -50,9 +51,10 @@ const Skills = () => {
                         <p className="my-4">Solidity</p>
                     </div>
                     <div className="duration-500 hover:scale-110">
-                        <TbBrandGolang size={50} className="mx-auto" />
-                        <p className="my-4">Golang</p>
+                        <SiEthereum size={50} className="mx-auto" />
+                        <p className="my-4">Ethereum</p>
                     </div>
+
                     <div className="duration-500 hover:scale-110">
                         <SiJavascript size={50} className="mx-auto" />
                         <p className="my-4">Javascript</p>
@@ -60,6 +62,10 @@ const Skills = () => {
                     <div className="duration-500 hover:scale-110">
                         <SiReact size={50} className="mx-auto" />
                         <p className="my-4">React</p>
+                    </div>
+                    <div className="duration-500 hover:scale-110">
+                        <TbBrandGolang size={50} className="mx-auto" />
+                        <p className="my-4">Golang</p>
                     </div>
                     <div className="duration-500 hover:scale-110">
                         <SiDocker size={50} className="mx-auto" />
@@ -73,7 +79,6 @@ const Skills = () => {
                     {/* SiHtml5 */}
                     {/* SiCss3 */}
                     {/* SiFigma */}
-
                     {/* SiBootstrap */}
                     {/* SiAmazonaws */}
                     {/* SiHeroku */}
