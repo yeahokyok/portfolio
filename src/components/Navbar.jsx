@@ -75,6 +75,8 @@ const Navbar = () => {
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
+                    {/* FaTwitter */}
+                    {/* FaLine */}
                     <li className="ml-[-100px] flex h-[60px] w-[160px] items-center justify-between bg-[#33333] duration-300 hover:ml-[-10px]">
                         <a
                             className="flex w-full items-center justify-between pl-2 text-gray-300"
