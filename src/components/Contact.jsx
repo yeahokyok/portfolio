@@ -3,7 +3,7 @@ import React from "react"
 const Contact = () => {
     return (
         <div
-            name="skills"
+            name="contact"
             className="h-full w-full bg-gray-900 text-gray-300 md:h-screen"
         >
             {/* Container */}
