@@ -1,5 +1,5 @@
 import React from "react"
-import { HiArrowNarrowRight } from "react-icons/hi"
+import { BsDownload } from "react-icons/bs"
 
 const Home = () => {
     return (
@@ -21,10 +21,11 @@ const Home = () => {
                 </p>
                 <div className="flex space-x-4">
                     <button className="group my-2 flex items-center border-2 px-6 py-3 text-gray-300 hover:border-[#FF8C00] hover:bg-[#FF8C00]">
-                        View Works
+                        View Projects
                     </button>
                     <button className="group my-2 flex items-center border-2 px-6 py-3 text-gray-300 hover:border-[#FF8C00] hover:bg-[#FF8C00]">
-                        Download Resume
+                        <BsDownload className="mr-2" />
+                        <span>Resume</span>
                     </button>
                 </div>
             </div>

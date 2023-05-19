@@ -11,7 +11,6 @@ const Navbar = () => {
     return (
         <div className="fixed flex h-[60px] w-full items-center justify-between bg-gray-900 px-4 text-gray-300">
             <div>
-                {/* <img src={Logo} alt="logo" className="h-[40px]" /> */}
                 <h1 className="text-2xl font-bold">TEERAPAT.C</h1>
             </div>
 
@@ -24,15 +23,18 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        {" "}
                         <Link to="about" smooth={true} duration={500}>
                             About
                         </Link>
                     </li>
                     <li>
-                        {" "}
                         <Link to="skills" smooth={true} duration={500}>
                             Skills
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="projects" smooth={true} duration={500}>
+                            Projects
                         </Link>
                     </li>
                 </ul>
@@ -77,6 +79,16 @@ const Navbar = () => {
                             duration={500}
                         >
                             Skills
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            onClick={handleClick}
+                            to="projects"
+                            smooth={true}
+                            duration={500}
+                        >
+                            Projects
                         </Link>
                     </li>
                 </ul>
