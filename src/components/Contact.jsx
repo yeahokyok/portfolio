@@ -2,7 +2,10 @@ import React from "react"
 
 const Contact = () => {
     return (
-        <div name="skills" className="h-full w-full bg-gray-900 text-gray-300">
+        <div
+            name="skills"
+            className="h-full w-full bg-gray-900 text-gray-300 md:h-screen"
+        >
             {/* Container */}
             <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col justify-center p-4">
                 <div className="text-center">
